@@ -1,0 +1,349 @@
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+#movr1{
+    color: black; 
+    border-radius: 20%;
+    position: fixed;
+    left: 200px;
+    right: 200px;
+    transition-property: all;
+    animation: spin1 1s ease-in 0s infinite normal;
+}
+@keyframes spin1 {
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: yellow;
+    }
+}
+#head{
+    color: black; 
+    border-radius: 20%;
+    position: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    left: 200px;
+    right: 200px;
+    top: 10px;
+    transition-property: all;
+    animation: movr1 2s ease-in-out 0s 1 normal;
+}
+@keyframes movr1 {
+    from{
+            top: -100px ;
+        }
+        to{
+            top: 10px;
+        }
+    }
+body{
+    background-image: url(R\ \(2\).jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat: none;
+}
+div{
+    text-align: center;
+}
+button{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100px;
+    transition-property: all;
+}
+input{
+    width: 300px;
+}
+#one{
+    background-color: rgb(0, 0, 0);
+    background: transparent;
+    color: aquamarine;
+    height: 200px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 1020px;
+    text-align: left;
+    transition-property: all;
+    animation: enter1 1s ease-out 0s 1 normal;
+}
+@keyframes enter1 {
+    from{
+        left: -200px ;
+    }
+    to{
+        left: 3px;
+    }
+}
+#github{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    left: 25px;
+    bottom: 100px;
+    transition-property: all;
+    animation: github 3s ease-out 0s 1 normal ;
+} 
+@keyframes github {
+    from{
+        left: -200px ;
+    }
+    to{
+        left: 25px;
+    } 
+}
+#link{
+    position: fixed;
+    left: 120px;
+    bottom: 100px;
+    transition-property: all;
+    animation: link 3s ease-out 0s 1 normal ;
+}
+@keyframes link {
+    from{
+        left: -200px ;
+    }
+    to{
+        left: 120px;
+    } 
+}
+#facebook{
+    position: fixed;
+    left: 25px;
+    bottom: 10px;
+    transition-property: all;
+    animation: face 3s ease-out 0s 1 normal ;
+}
+@keyframes face {
+    from{
+        left: -200px ;
+    }
+    to{
+        left: 25px;
+    }   
+}
+#insta{
+    position: fixed;
+    left: 100px;
+    bottom: 10px;
+    transition-property: all;
+    animation: insta 3s ease-out 0s 1 normal;
+}
+@keyframes insta {
+    from{
+        left: -200px ;
+    }
+    to{
+        left: 100px;
+    }   
+}
+#dis{
+    position: fixed;
+    left: 200px;
+    bottom: 10px;
+    transition-property: all;
+    animation: dis 3s ease-out 0s 1 normal ;
+}
+@keyframes dis {
+    from{
+        left: -200px ;
+    }
+    to{
+        left: 200px;
+    }   
+}
+#mail{
+    position: fixed;
+    left: 200px;
+    bottom: 100px;
+    animation: mail 3s ease-out 0s 1 normal ;
+}
+@keyframes mail {
+    from{
+        left: -200px ;
+    }
+    to{
+        left: 200px;
+    } 
+}
+#onel{
+    background-color: rgb(0, 0, 0);
+    background: transparent;
+    color: aquamarine;
+    text-align: right;
+    height: 150px;
+    position: fixed;
+    bottom: 0px;
+    left: 800px;
+    right: 30px;
+    transition-property: all;
+    animation: feed1 0.5s ease-out 0s 1 normal;
+}
+#onel :hover{
+    background-color: rgba(0, 162, 255, 0.808);
+    border-style: inherit;
+    border-radius: 20%;
+    color: black;
+    transition-duration: 0.5s;
+    transition-delay: 0.25s;
+}
+.feed{
+    position: fixed;
+    text-align: center;
+    background-color: bisque;
+    background: transparent;
+    border-radius: 10px;
+    bottom: 80px;
+    right: 30px;
+    left: 800px;
+    color: black;
+    transition-property: all;
+    animation: feed1 2s ease-out 0s 1 normal ;
+}
+@keyframes feed1 {
+    from{
+        right: -1200px;
+    }
+    to{
+        left: 800px;
+    }    
+}
+#button2{
+    position: fixed;
+    bottom: 70px;
+    right: 220px;
+    height: 10px;
+    transition-property: all;
+    animation: button2 3s ease-out 0s 1 normal ;
+}
+@keyframes button2 {
+    from{
+        right: -500px;
+    }
+    to{
+        right: 220px;
+    }    
+}
+#button2 :hover{
+    background-color: darkblue;
+    border-radius: 40%;
+    transition-duration: 0.5s;
+    transition-delay: 0.25s;
+}
+#main1{
+    background-color: rgb(0, 0, 0 ,0.5);
+    background: transparent;
+    align-items: center;
+    position: fixed;
+    left: 200px;
+    right: 200px;
+    top: 120px;
+    border: 5px dashed yellowgreen;
+    border-radius: 10%;
+    transition-property: all;
+    animation: spin 2s ease-out 0s 1 normal;
+}
+@keyframes spin {
+    from{
+        top: -400px;
+    }
+    to{
+        top: 120px;
+        
+    }
+}
+.eandp{
+    position: fixed;
+    left: 300px;
+    right: 300px;
+    transition-property: all;
+}
+.eandp :hover{
+    background-color: rgb(25, 231, 42);
+    border-radius:10px;
+    border-color: blue;
+    border-style: double;
+    border-radius: 10%;
+    transition-duration: 0.5s;
+    transition-delay: 0.25s;
+}
+#button{
+    transition-property: all;
+    background-color: rgb(66, 62, 62);
+    position: fixed;
+    left: 600px;
+    right: 600px;
+}
+#button :hover{
+    background-color: blue;
+    border-radius: 30%;
+    border-color: blueviolet;
+    border-style: groove;
+    transition-duration: 0.5s;
+    transition-delay: 0.25s;
+}
+#head{
+    color: black;
+    
+}
+#sign{
+    background-color: black;
+    position: fixed;
+    left: 420px;
+    top: 360px;
+    color: rgb(161, 17, 17);
+    height: 50px;
+    width: 100px;
+    transition-property: all;
+    animation: sign 2s ease-out 0s 1 normal ;
+}
+@keyframes sign {
+    from{
+        top: -400px;
+    }
+    to{
+        top: 360px;
+        
+    }  
+}
+#for{
+    position: fixed;
+    right: 420px;
+    top: 360px;
+    animation:  for 2s ease-out 0s 1 normal ;
+}
+@keyframes for {
+    from{
+        top: -400px;
+    }
+    to{
+        top: 360px;
+        
+    }    
+}
+#sign :hover{
+    background-color: rgb(180, 3, 250);
+    border-radius: 50px;
+    border-color: red;
+    color: black;
+    transition-delay: 0.25s;
+    transition-duration: 0.5s;
+}
+#for :hover{
+    background-color: rgb(95, 13, 247);
+    border-radius: 50px;
+    border-color: red;
+    color: black;
+    transition-delay: 0.5s;
+    transition-duration: 0.25s;
+}
+#github :hover{
+    border-width: 20px;
+    border-color: white;
+}
